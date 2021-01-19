@@ -1,5 +1,5 @@
 {
-    "name": "tdg",
+    "name": "dynamicguy",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -11,15 +11,22 @@
     },
     "keywords": [],
     "author": "",
-    "license": "ISC",
+    "license": "MIT",
     "dependencies": {
+        "@tailwindcss/typography": "^0.4.0",
+        "autoprefixer": "^10.2.1",
+        "gray-matter": "^4.0.2",
         "next": "^10.0.5",
+        "postcss": "^8.2.4",
+        "raw-loader": "^4.0.2",
         "react": "^17.0.1",
-        "react-dom": "^17.0.1"
+        "react-dom": "^17.0.1",
+        "react-icons": "^4.1.0",
+        "react-markdown": "^5.0.3",
+        "tailwindcss": "^2.0.2"
     },
     "devDependencies": {
         "@babel/core": "^7.12.10",
-        "@babel/preset-react": "^7.12.10",
-        "frontmatter-markdown-loader": "^3.6.2"
+        "@babel/preset-react": "^7.12.10"
     }
 }
