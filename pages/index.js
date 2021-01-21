@@ -1,15 +1,17 @@
-import "tailwindcss/tailwind.css"
 import Layout from '@components/Layout'
 import PostList from '@components/PostList'
 
 import getPosts from '@utils/getPosts'
+import Brand from "@components/Brand"
+import Hero from "@components/Hero"
+
 
 const Index = ({ posts, title, description, ...props }) => {
   return (
     <>
       <Layout pageTitle={title} description={description}>
-        <h1 className="title">Welcome to this demo blog!</h1>
-
+        <Hero />
+        <Brand />
         <p className="description">
           This is a simple blog built with Next.
         </p>
