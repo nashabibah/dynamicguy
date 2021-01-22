@@ -1,9 +1,8 @@
 import Layout from '@components/Layout'
-import PostList from '@components/PostList'
-
-import getPosts from '@utils/getPosts'
-import Brand from "@components/Brand"
 import Hero from "@components/Hero"
+import Brand from "@components/Brand"
+import PostList from '@components/PostList'
+import getPosts from '@utils/getPosts'
 
 
 const Index = ({ posts, title, description, ...props }) => {
@@ -11,21 +10,10 @@ const Index = ({ posts, title, description, ...props }) => {
     <>
       <Layout pageTitle={title} description={description}>
         <Hero />
-        <Brand />
-        <p className="description">
-          This is a simple blog built with Next.
-        </p>
         <main>
           <PostList posts={posts} />
         </main>
-        <p>
-          You can look at the repository for this project{' '}
-          <a href="https://github.com/cassidoo/next-netlify-blog-starter">
-            here
-          </a>
-          , and a tutorial on how to build it {` `}
-          <a href="https://url.netlify.com/ByVW0bCF8">here</a>.
-        </p>
+        <Brand />
       </Layout>
     </>
   )

@@ -31,7 +31,6 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
           </div>
         </article>
       </Layout>
-
     </>
   )
 }

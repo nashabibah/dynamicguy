@@ -6,13 +6,13 @@ export default function Footer() {
     <>
       <footer className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-          <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+          <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:-mt-5 mt-10">
             <Logo/>
-            <p className="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
+            <p className="mt-2 text-sm text-gray-500">We make artificial intelligence and information product to solve business challenges of enterprises, startups and govt organizations</p>
           </div>
           <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">OUR PRODUCTS</h2>
+              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">PRODUCTS</h2>
               <nav className="list-none mb-10">
                 <li>
                   <a className="text-gray-600 hover:text-gray-800">NID OCR Extractor</a>
@@ -29,53 +29,42 @@ export default function Footer() {
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">OUR SERVICES</h2>
+              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SERVICES</h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Deployment</a>
+                  <a className="text-gray-600 hover:text-gray-800">Architect</a>
                 </li>
                 <li>
                   <a className="text-gray-600 hover:text-gray-800">Scaling</a>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Solution Architect</a>
+                  <a className="text-gray-600 hover:text-gray-800">Integration</a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">Deployment</a>
                 </li>
                 <li>
                   <a className="text-gray-600 hover:text-gray-800">E-commerce</a>
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+            <div className="lg:w-2/4 md:w-1/2 w-full px-4">
+              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CASE STUDIES</h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                  <a className="text-gray-600 hover:text-gray-800">Banglalink</a>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                  <a className="text-gray-600 hover:text-gray-800">The Daily Star</a>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                  <a className="text-gray-600 hover:text-gray-800">Prothom Alo</a>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                </li>
-              </nav>
-            </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                  <a className="text-gray-600 hover:text-gray-800">Japan Tobacoo Industries</a>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                  <a className="text-gray-600 hover:text-gray-800">Directorate General of Health Services</a>
                 </li>
               </nav>
             </div>
@@ -83,9 +72,7 @@ export default function Footer() {
         </div>
         <div className="bg-gray-100">
           <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-            <p className="text-gray-500 text-sm text-center sm:text-left">© 2020 Tailblocks —
-              <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@knyttneve</a>
-            </p>
+          <p className="text-gray-500 text-sm text-center sm:text-left">&copy; 2021 <a href="https://dynamicguy.com/" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">Dynamic Guy</a></p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
               <a className="text-gray-500">
                 <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">

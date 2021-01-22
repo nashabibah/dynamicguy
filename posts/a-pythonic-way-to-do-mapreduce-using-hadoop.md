@@ -2,6 +2,7 @@
 title: 'A Pythonic way to do MapReduce using hadoop'
 date: '2019-08-04'
 description: 'A Pythonic way to do MapReduce using hadoop'
+hero_image: '../../public/images/cover.jpg'
 ---
 Hadoop is a collection of sub-projects from ASF to do hardcore distributed computing written in Java. If you have a look on their powered by page you will find most of the big boys are there. If you are from technology field you must be heard couple of these tools which are sub-projects of Hadoop: We will be using these three in throughout the post:
 

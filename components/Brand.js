@@ -34,7 +34,7 @@ function Brand() {
                   <img alt="ecommerce" className="object-center h-8 block" src="images/ucbl_logo.png" />
                 </a>
               </div>
-              <div className="lg:w-1/12 md:w-1/2 p-4 w-full">
+              <div className="lg:w-1/6 md:w-1/2 p-4 w-full">
                 <a className="block relative h-30 rounded overflow-hidden">
                   <img alt="Banglalink" className="object-cover object-center h-24 block" src="images/banglalink_logo.svg" />
                 </a>
