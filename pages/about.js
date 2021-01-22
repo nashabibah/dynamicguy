@@ -22,7 +22,6 @@ const About = ({ title, description, ...props }) => {
           </a>
           !
         </p>
-
         <p>
           This project includes a basic layout and header, base styles, dynamic
           routing with getStaticPaths, and posts saved as Markdown.

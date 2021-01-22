@@ -7,12 +7,13 @@
         "dev": "next",
         "build": "next build",
         "start": "next start",
-        "export": "npm run build && next start"
+        "export": "npm run build && next export"
     },
     "keywords": [],
     "author": "",
     "license": "MIT",
     "dependencies": {
+        "@tailwindcss/forms": "^0.2.1",
         "@tailwindcss/typography": "^0.4.0",
         "autoprefixer": "^10.2.1",
         "gray-matter": "^4.0.2",

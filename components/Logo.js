@@ -6,7 +6,14 @@ function Logo() {
         <>
         <Link href="/">
             <a className="flex items-center md:justify-start justify-center">
-                <Image src="/images/logo.svg" alt="dynamicguy logo" width="220" height="64" />
+                <Image
+                    src="/images/logo.svg"
+                    layout="fixed"
+                    width={220}
+                    height={65}
+                    alt="dynamicguy logo"
+                    loading="eager"
+                />
             </a>
         </Link>
         </>

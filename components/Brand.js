@@ -1,3 +1,10 @@
+import Link from 'next/link'
+import Image from 'next/image'
+
+const loader = ({ src, width, quality }) => {
+    return `http://localhost:3000/${src}?w=${width}&q=${quality || 75}`
+}
+
 function Brand() {
     return (
         <>
@@ -11,17 +18,17 @@ function Brand() {
               </div>
               <div className="lg:w-1/12 md:w-1/2 p-4 w-full">
                 <a className="block relative h-30 rounded overflow-hidden">
-                  <img alt="Japan Tobacco International" className="object-cover object-center h-12 block" src="images/jti_logo.svg" />
+                    <img alt="Japan Tobacco International" className="object-cover object-center h-12 block" src="images/jti_logo.svg" />
                 </a>
               </div>
               <div className="lg:w-1/6 md:w-1/2 p-4 w-full">
                 <a className="block relative h-30 rounded overflow-hidden">
-                <img alt="Directorate General of Health Services" className="object-cover object-center h-9 block" src="images/dghs_logo.jpg" />
+                  <img alt="Directorate General of Health Services" className="object-cover object-center h-9 block" src="images/dghs_logo.jpg" />
                 </a>
               </div>
               <div className="lg:w-1/6 md:w-1/2 p-4 w-full">
                 <a className="block relative h-30 rounded overflow-hidden">
-                <img alt="ecommerce" className="object-cover object-center h-8 block" src="images/dailystar_logo.svg" />
+                  <img alt="ecommerce" className="object-cover object-center h-8 block" src="images/dailystar_logo.svg" />
                 </a>
               </div>
               <div className="lg:w-1/6 md:w-1/2 p-4 w-full">
