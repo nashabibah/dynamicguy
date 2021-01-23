@@ -15,40 +15,7 @@ const Index = ({ posts, title, description, ...props }) => {
         </main>
         <Brand />
 
-        <div className="container">
-          <ul className="flex flex-col flex-wrap items-center md:flex-row">
-              <li className="w-40 px-4 py-2 m-5">
-                  <a href="#" target="_blank">
-                    <img className="" src="images/jti_logo.svg" alt="Japan Tobacco International" />
-                  </a>
-              </li>
-              <li className="w-40 px-4 py-2 m-5">
-                  <a href="#" target="_blank">
-                    <img className="" src="images/dghs_logo.jpg" alt="Directorate General of Health Services" />
-                  </a>
-              </li>
-              <li className="w-40 px-4 py-2 m-5">
-                  <a href="#" target="_blank">
-                    <img className="" src="images/dailystar_logo.svg" alt="The Daily Star" />
-                  </a>
-              </li>
-              <li className="w-40 px-4 py-2 m-5">
-                  <a href="#" target="_blank">
-                    <img className="" src="images/palo_logo.svg" alt="Prothom Alo" />
-                  </a>
-              </li>
-              <li className="w-40 px-4 py-2 m-5">
-                  <a href="#" target="_blank">
-                    <img className="" src="images/ucbl_logo.png" alt="United Commercial Bank Ltd" />
-                  </a>
-              </li>
-              <li className="w-40 px-4 py-2 m-5">
-                  <a href="#" target="_blank">
-                    <img className="" src="images/banglalink_logo.svg" alt="Banglalink" />
-                  </a>
-              </li>
-          </ul>
-      </div>
+
 
       </Layout>
     </>
