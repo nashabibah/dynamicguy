@@ -14,9 +14,6 @@ const Index = ({ posts, title, description, ...props }) => {
           <PostList posts={posts} />
         </main>
         <Brand />
-
-
-
       </Layout>
     </>
   )
