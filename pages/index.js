@@ -1,7 +1,6 @@
 import Layout from '@components/Layout'
 import Hero from "@components/Hero"
 import Brand from "@components/Brand"
-import PostList from '@components/PostList'
 import getPosts from '@utils/getPosts'
 
 
@@ -10,9 +9,6 @@ const Index = ({ posts, title, description, ...props }) => {
     <>
       <Layout pageTitle={title} description={description}>
         <Hero />
-        <main>
-          <PostList posts={posts} />
-        </main>
         <Brand />
       </Layout>
     </>

@@ -3,7 +3,9 @@ title: 'Install OpenCV-2.4.11 in ubuntu'
 date: '2019-08-04'
 description: 'Install OpenCV-2.4.11 in ubuntu'
 ---
-TLDR: curl -L https://gist.github.com/dynamicguy/3d1fce8dae65e765f7c4/raw/21e9f30cd14ac6fd8b9f82eb7fc52137e1492bae/install-opencv-2.4.11-in-ubuntu.sh | sh
+```
+curl -L https://gist.github.com/dynamicguy/3d1fce8dae65e765f7c4/raw/21e9f30cd14ac6fd8b9f82eb7fc52137e1492bae/install-opencv-2.4.11-in-ubuntu.sh | sh
+```
 
 install the prerequisite dependencies
 
@@ -27,7 +29,9 @@ sudo apt-get install -y libjpeg-dev libpng-dev libtiff-dev libjasper-dev
 
 ## Even more deps
 
-`sudo apt-get -qq install libopencv-dev build-essential checkinstall cmake pkg-config yasm libjpeg-dev libjasper-dev libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev libxine-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev libv4l-dev python-dev python-numpy libtbb-dev libqt4-dev libgtk2.0-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev x264 v4l-utils`
+```
+sudo apt-get -qq install libopencv-dev build-essential checkinstall cmake pkg-config yasm libjpeg-dev libjasper-dev libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev libxine-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev libv4l-dev python-dev python-numpy libtbb-dev libqt4-dev libgtk2.0-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev x264 v4l-utils
+```
 
 download opencv-2.4.11
 

@@ -16,6 +16,9 @@ module.exports = {
           },
         },
       },
+      backgroundImage: theme => ({
+        'hero-pattern': "url('/images/pattern-notes.svg')",
+      })
     },
   },
   variants: {

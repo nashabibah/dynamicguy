@@ -13,7 +13,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
       <Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
         <div className="back">
           ←{' '}
-          <Link href="/">
+          <Link href="/blog">
             <a>Back to post list</a>
           </Link>
         </div>
