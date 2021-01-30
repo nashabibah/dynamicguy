@@ -4,7 +4,7 @@ import Logo from './Logo'
 export default function Header() {
   return (
     <>
-      <header className="bg-gray-50 sticky top-0">
+      <header className="bg-green-50 sticky top-0">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <Logo/>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
@@ -18,10 +18,8 @@ export default function Header() {
             <a className="mr-5 hover:text-gray-900">Blog</a>
           </Link>
           </nav>
-          <button className="inline-flex items-center text-white bg-green-800 border-0 py-1 px-3 focus:outline-none hover:bg-green-500 rounded text-base mt-4 md:mt-0">Ask for Quote
-            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
+          <button className="inline-flex items-center text-white bg-green-500 border-0 py-1 px-3 focus:outline-none hover:bg-green-600 rounded text-base mt-4 md:mt-0">Let's Talk
+
           </button>
         </div>
       </header>

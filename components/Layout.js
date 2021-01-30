@@ -14,7 +14,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
       </Head>
       <section className="layout">
         <Header />
-        <div className="px-8 py-5 flex flex-col justify-center items-center bg-gray-50">{children}</div>
+        <div className="px-8 py-5 flex flex-col justify-center items-center bg-green-50">{children}</div>
         <Footer />
       </section>
     </>

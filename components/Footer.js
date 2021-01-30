@@ -4,10 +4,10 @@ import Logo from './Logo'
 export default function Footer() {
   return (
     <>
-      <footer className="bg-gray-100">
+      <footer className="bg-green-200">
         <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div>
-            <div className="w-80 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:-mt-5 mt-10 bg-gray-50 p-8">
+            <div className="w-80 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:-mt-5 mt-10 bg-green-50 p-8">
               <Logo />
               <p className="mt-2 text-sm text-gray-700">We build innovative tech products and critical tech support to startups, enterprises, and organizations to solve their business challenges.</p>
             </div>
@@ -78,7 +78,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="bg-gray-200">
+        <div className="bg-green-50">
           <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p className="text-gray-500 text-sm text-center sm:text-left">&copy; 2021 <a href="https://dynamicguy.com/" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">Dynamic Guy</a></p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
