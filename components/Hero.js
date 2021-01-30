@@ -7,7 +7,7 @@
 function Hero() {
     return (
         <>
-        <section className="container mx-auto px-6 p-10 bg-hero-pattern fixed">
+        <section className="container mx-auto px-6 p-10 bg-hero-pattern">
           <div className="flex flex-wrap mb-20">
             <div className="flex justify-center w-full md:w-1/2">
               {/* <img src="images/hero.svg" alt="hero" width="550" height="550" className="bg-fixed" /> */}
