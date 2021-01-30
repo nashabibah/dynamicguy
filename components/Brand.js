@@ -9,11 +9,11 @@ function Brand() {
   return (
     <>
       <section className="text-gray-600 body-font my-20">
-        <div class="flex flex-col text-center w-full mb-10">
+        <div className="flex flex-col text-center w-full mb-10">
           <h1 className="sm:text-5xl text-3xl text-center font-medium mb-5 text-gray-900 tracking-wide">
             Trusted by leading brand and organisation
           </h1>
-          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consectetur ipsam voluptate perspiciatis reprehenderit nostrum sapiente. Sequi perferendis laboriosam ut aspernatur enim tempore quaerat pariatur.</p>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consectetur ipsam voluptate perspiciatis reprehenderit nostrum sapiente. Sequi perferendis laboriosam ut aspernatur enim tempore quaerat pariatur.</p>
         </div>
         <div className="container px-5 py-5 mx-auto">
           <ul className="flex flex-col flex-wrap items-center md:flex-row">
