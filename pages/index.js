@@ -36,7 +36,7 @@ const Index = ({ posts, title, description, ...props }) => {
                 </Link>
               </div>
               <div className="w-full md:w-1/2 p-2 mb-12">
-                <video className="" data-src="media/id.mp4?w=800" autoplay="" muted="" loop="" src="media/id.mp4?w=800" __idm_id__="545682433"></video>
+                <img src="images/id.gif" className="w-full h-56 object-cover" />
               </div>
             </div>
 
