@@ -8,44 +8,33 @@
 function Brand() {
   return (
     <>
-      <section className="text-gray-600 body-font my-20">
+      <section className="my-20">
         <div className="flex flex-col text-center w-full mb-10">
-          <h1 className="sm:text-5xl text-3xl text-center font-medium mb-5 text-gray-900 tracking-wide">
-            Trusted by leading brand and organisation
-          </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consectetur ipsam voluptate perspiciatis reprehenderit nostrum sapiente. Sequi perferendis laboriosam ut aspernatur enim tempore quaerat pariatur.</p>
+          <h2 className="font-bold text-center uppercase text-2xl lg:text-4xl tracking-wider mb-10">Our Clients</h2>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">we worked with leading brand and organisation for tech support.</p>
         </div>
-        <div className="container px-5 py-5 mx-auto">
+        <div className="flex flex-col text-center w-full mb-10">
           <ul className="flex flex-col flex-wrap items-center md:flex-row">
-            <li className="w-40 px-4 py-2 m-5">
-              <a href="#" target="_blank">
-                <img className="" src="images/jti_logo.svg" alt="Japan Tobacco International" />
-              </a>
+            <li className="w-28 px-4 py-2 m-5">
+              <img src="images/banglalink_logo.svg" alt="Banglalink" />
+            </li>
+            <li className="w-32 px-4 py-2 m-5">
+              <img src="images/jti_logo.svg" alt="Japan Tobacco International" />
+            </li>
+            <li className="w-64 px-4 py-2 m-5">
+              <img src="images/dghs_logo.png" alt="Directorate General of Health Services" />
+            </li>
+            <li className="w-64 px-4 py-2 m-5">
+              <img src="images/dailystar_logo.svg" alt="The Daily Star" />
+            </li>
+            <li className="w-60 px-4 py-2 m-5">
+              <img src="images/palo_logo.svg" alt="Prothom Alo" />
             </li>
             <li className="w-40 px-4 py-2 m-5">
-              <a href="#" target="_blank">
-                <img className="" src="images/dghs_logo.jpg" alt="Directorate General of Health Services" />
-              </a>
+              <img src="images/ucbl_logo.png" alt="United Commercial Bank Ltd" />
             </li>
             <li className="w-40 px-4 py-2 m-5">
-              <a href="#" target="_blank">
-                <img className="" src="images/dailystar_logo.svg" alt="The Daily Star" />
-              </a>
-            </li>
-            <li className="w-40 px-4 py-2 m-5">
-              <a href="#" target="_blank">
-                <img className="" src="images/palo_logo.svg" alt="Prothom Alo" />
-              </a>
-            </li>
-            <li className="w-40 px-4 py-2 m-5">
-              <a href="#" target="_blank">
-                <img className="" src="images/ucbl_logo.png" alt="United Commercial Bank Ltd" />
-              </a>
-            </li>
-            <li className="w-40 px-4 py-2 m-5">
-              <a href="#" target="_blank">
-                <img className="" src="images/banglalink_logo.svg" alt="Banglalink" />
-              </a>
+              <img src="images/leadsoft.png" alt="LeadSoft Bangladesh Limited" />
             </li>
           </ul>
         </div>
