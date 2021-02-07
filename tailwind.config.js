@@ -20,9 +20,15 @@ module.exports = {
         'hero-pattern': "url('/images/pattern-notes.svg')",
       })
     },
+    fontFamily: {
+      'sans': ['Raleway'],
+    },
   },
   variants: {
-    extend: {},
+    extend: {
+      scale: ['group-hover'],
+      translate: ['group-hover'],
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),

@@ -4,10 +4,8 @@ export default function PostList({ posts }) {
   if (posts === 'undefined') return null
 
   return (
-    <div className="container m-auto px-5 py-20 mt-16 sm:px-12 md:px-20 max-w-screen-xl">
-      <div className="text-5xl">
-        All Posts
-      </div>
+    <div className="container m-auto py-20 px-5 sm:px-12 md:px-32">
+      <h2 className="font-bold text-center uppercase text-2xl lg:text-4xl tracking-wider mb-10">All Posts</h2>
       {!posts && <div>No posts!</div>}
       <ul className="mt-3">
         {posts &&

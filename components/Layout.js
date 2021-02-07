@@ -11,14 +11,16 @@ export default function Layout({ children, pageTitle, description }) {
         <meta charSet="utf-8" />
         <meta name="Description" content={description}></meta>
         <title>{pageTitle}</title>
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+        </style>
       </Head>
-      <section className="layout">
-        <Header />
-        <div className="px-8 py-5 flex flex-col justify-center items-center bg-green-50">
-          {children}
-        </div>
-        <Footer />
-      </section>
+      <Header />
+      <div className="bg-green-50 py-5">
+        {children}
+      </div>
+      <Footer />
     </>
   )
 }

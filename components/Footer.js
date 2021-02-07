@@ -19,11 +19,11 @@ export default function Footer() {
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a className="text-gray-800 cursor-pointer hover:text-red-600">KYC OCR Extractor</a>
+                  <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">KYC OCR Extractor</a>
                 </li>
                 <li>
                   <Link href="https://pisleep.com/">
-                  <a className="text-gray-800 cursor-pointer hover:text-red-600">Pisleep</a>
+                  <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">Pisleep</a>
                   </Link>
                 </li>
               </nav>
@@ -34,19 +34,19 @@ export default function Footer() {
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a className="text-gray-800 cursor-pointer hover:text-red-600">Software Design</a>
+                  <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">Software Design</a>
                 </li>
                 <li>
-                  <a className="text-gray-800 cursor-pointer hover:text-red-600">Development</a>
+                  <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">Development</a>
                 </li>
                 <li>
-                  <a className="text-gray-800 cursor-pointer hover:text-red-600">Scaling</a>
+                  <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">Scaling</a>
                 </li>
                 <li>
-                  <a className="text-gray-800 cursor-pointer hover:text-red-600">Integration</a>
+                  <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">Integration</a>
                 </li>
                 <li>
-                  <a className="text-gray-800 cursor-pointer hover:text-red-600">Deployment</a>
+                  <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">Ecommerce</a>
                 </li>
               </nav>
             </div>
@@ -56,16 +56,16 @@ export default function Footer() {
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a className="text-gray-800 cursor-pointer hover:text-red-600">Banglalink</a>
+                  <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">Banglalink</a>
                 </li>
                 <li>
-                  <a className="text-gray-800 cursor-pointer hover:text-red-600">The Daily Star</a>
+                  <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">The Daily Star</a>
                 </li>
                 <li>
-                  <a className="text-gray-800 cursor-pointer hover:text-red-600">Prothom Alo</a>
+                  <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">Prothom Alo</a>
                 </li>
                 <li>
-                  <a className="text-gray-800 cursor-pointer hover:text-red-600">Japan Tobacoo Industries</a>
+                  <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">Japan Tobacoo Industries</a>
                 </li>
               </nav>
             </div>
@@ -76,7 +76,7 @@ export default function Footer() {
               <nav className="list-none mb-10">
                 <li>
                   <Link href="https://kyc.dynamicguy.com/">
-                    <a className="text-gray-800 cursor-pointer hover:text-red-600">KYC OCR Extractor</a>
+                    <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">KYC OCR Extractor</a>
                   </Link>
                 </li>
               </nav>

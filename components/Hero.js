@@ -4,7 +4,7 @@
 //   return `http://localhost:3000/${src}?w=${width}&q=${quality || 75}`
 // }
 
-function Hero() {
+export default function Hero() {
     return (
         <>
         <section className="container mx-auto px-6 p-10 bg-hero-pattern bg-fixed">
@@ -30,5 +30,3 @@ function Hero() {
         </>
     )
 }
-
-export default Hero

@@ -11,25 +11,27 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
   return (
     <>
       <Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
-        <div className="back">
-          ←{' '}
-          <Link href="/blog">
-            <a>Back to post list</a>
-          </Link>
-        </div>
-        <article className="prose lg:prose-xl">
-          <h1>{frontmatter.title}</h1>
-          {frontmatter.hero_image && (
-            <img
-              src={frontmatter.hero_image}
-              className="hero"
-              alt={frontmatter.title}
-            />
-          )}
-          <div>
-            <ReactMarkdown source={markdownBody} />
+        <div className="flex flex-col justify-center items-center py-5 md:py-20 px-5">
+          <div className="back">
+            ←{' '}
+            <Link href="/blog">
+              <a>Back to post list</a>
+            </Link>
           </div>
-        </article>
+          <article className="prose lg:prose-xl">
+            <h1>{frontmatter.title}</h1>
+            {frontmatter.hero_image && (
+              <img
+                src={frontmatter.hero_image}
+                className="hero"
+                alt={frontmatter.title}
+              />
+            )}
+            <div>
+              <ReactMarkdown source={markdownBody} />
+            </div>
+          </article>
+        </div>
       </Layout>
     </>
   )

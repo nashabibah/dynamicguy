@@ -1,7 +1,7 @@
 import Link from 'next/link'
 // import Image from 'next/image'
 
-function Logo() {
+export default function Logo() {
     return (
         <>
         <Link href="/">
@@ -24,5 +24,3 @@ function Logo() {
         </>
     )
 }
-
-export default Logo
