@@ -19,11 +19,18 @@ export default function Footer() {
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">KYC OCR Extractor</a>
+                  <Link href="https://kyc.dynamicguy.com/">
+                    <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">KYC OCR Extractor</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="https://corona.dynamicguy.com/">
+                    <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">COVID-19 AI Assistant</a>
+                  </Link>
                 </li>
                 <li>
                   <Link href="https://pisleep.com/">
-                  <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">Pisleep</a>
+                    <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">Pisleep</a>
                   </Link>
                 </li>
               </nav>
@@ -44,9 +51,6 @@ export default function Footer() {
                 </li>
                 <li>
                   <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">Integration</a>
-                </li>
-                <li>
-                  <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">Ecommerce</a>
                 </li>
               </nav>
             </div>
@@ -75,8 +79,8 @@ export default function Footer() {
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <Link href="https://kyc.dynamicguy.com/">
-                    <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">KYC OCR Extractor</a>
+                  <Link href="https://kyc.dynamicguy.com/docs/">
+                    <a className="text-gray-800 cursor-pointer animation duration-600 ease-in-out hover:text-red-600">KYC OCR Extractor API Documentation</a>
                   </Link>
                 </li>
               </nav>
@@ -87,7 +91,7 @@ export default function Footer() {
           <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p className="text-gray-500 text-sm text-center sm:text-left">&copy; 2021 <a href="https://dynamicguy.com/" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">Dynamic Guy</a></p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-            <a className="ml-3 text-gray-500">
+              <a className="ml-3 text-gray-500">
                 <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={0} className="w-5 h-5" viewBox="0 0 24 24">
                   <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" />
                   <circle cx={4} cy={4} r={2} stroke="none" />
