@@ -4,7 +4,7 @@ import Logo from './Logo'
 export default function Header() {
   return (
     <>
-      <header className="bg-green-50 sticky top-0">
+      <header className="bg-green-50 sticky top-0 z-50">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <Logo />
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">

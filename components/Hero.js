@@ -7,7 +7,7 @@
 export default function Hero() {
     return (
         <>
-        <section className="container mx-auto px-6 p-10 bg-hero-pattern bg-fixed">
+        <section className="container mx-auto px-6 p-10 bg-hero bg-fixed">
           {/* <div className="flex flex-auto mb-20"> */}
             <div className="my-20">
               <h1 className="text-center sm:text-5xl text-3xl mb-8 font-bold text-gray-900">Mission driven, people focused</h1>

@@ -17,7 +17,7 @@ export default function Layout({ children, pageTitle, description }) {
         </style>
       </Head>
       <Header />
-      <div className="bg-green-50 py-5">
+      <div className="bg-green-50">
         {children}
       </div>
       <Footer />
