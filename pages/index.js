@@ -168,7 +168,7 @@ const Index = ({ posts, title, description, ...props }) => {
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
                 </a>
-                </Link>
+              </Link>
             </div>
           </div>
         </section> */}
@@ -176,12 +176,11 @@ const Index = ({ posts, title, description, ...props }) => {
         <section className="">
           <div className="flex flex-row">
             <div className="flex w-1/2 group">
-              <div className="flex items-center justify-center w-full py-10 bg-red-600 group-hover:bg-service bg-blend-overlay transition duration-700 ease-in-out bg-no-repeat bg-cover">
-                <div className="max-w-sm py-16 px-8 transform duration-700 ease-in-out bg-red-600 group-hover:bg-white group-hover:scale-90">
-                  <h2 className="text-4xl font-bold text-center tracking-wider text-white group-hover:text-black mb-5">Services</h2>
-                  <p className="text-base font-semibold text-center tracking-wider text-white group-hover:text-black mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nostrum!</p>
-                  <Link href="/products">
-                    <a className="text-center block text-white group-hover:text-red-600 text-base">View Services
+              <div className="flex items-center justify-center w-full py-10 bg-red-600 group-hover:bg-opacity-90">
+                <div className="max-w-sm py-16 px-8">
+                  <h2 className="text-4xl font-bold text-center tracking-wider text-white mb-5">KYC OCR Extractor</h2>
+                  <Link href="https://kyc.dynamicguy.com/">
+                    <a className="text-center block text-black bg-white border-0 py-2 px-4 focus:outline-none rounded text-base mt-10">TRY FOR FREE
                   <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6 ml-2 inline-block" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                       </svg>
@@ -191,12 +190,11 @@ const Index = ({ posts, title, description, ...props }) => {
               </div>
             </div>
             <div className="flex w-1/2 group">
-            <div className="flex items-center justify-center w-full py-10 bg-red-600 group-hover:bg-product bg-blend-overlay transition duration-700 ease-in-out bg-no-repeat bg-cover">
-                <div className="max-w-sm py-16 px-8 transform duration-700 ease-in-out bg-red-600 group-hover:bg-white group-hover:scale-90">
-                  <h2 className="text-4xl font-bold text-center tracking-wider text-white group-hover:text-black mb-5">Products</h2>
-                  <p className="text-base font-semibold text-center tracking-wider text-white group-hover:text-black mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nostrum!</p>
-                  <Link href="/products">
-                    <a className="text-center block text-white group-hover:text-red-600 text-base">View Products
+              <div className="flex items-center justify-center w-full py-10 bg-red-600 group-hover:bg-opacity-90">
+                <div className="max-w-sm py-16 px-8">
+                  <h2 className="text-4xl font-bold text-center tracking-wider text-white mb-5">COVID-19 AI Assistant</h2>
+                  <Link href="https://kyc.dynamicguy.com/">
+                    <a className="text-center block text-black bg-white border-0 py-2 px-4 focus:outline-none rounded text-base mt-10">TRY FOR FREE
                   <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6 ml-2 inline-block" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                       </svg>
@@ -214,7 +212,7 @@ const Index = ({ posts, title, description, ...props }) => {
 
 export default Index
 
-export async function getStaticProps( {locale, locales} ) {
+export async function getStaticProps({ locale, locales }) {
   const configData = await import(`../siteconfig.json`)
 
   return {

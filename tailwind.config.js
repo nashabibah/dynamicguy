@@ -17,7 +17,7 @@ module.exports = {
         },
       },
       backgroundImage: theme => ({
-        'hero-pattern': "url('/images/pattern-notes.svg')",
+        'hero': "url('/images/pattern-notes.svg')",
       })
     },
     fontFamily: {
@@ -28,6 +28,9 @@ module.exports = {
     extend: {
       scale: ['group-hover'],
       translate: ['group-hover'],
+      backgroundImage: ['group-hover'],
+      backgroundBlendMode: ['group-hover'],
+      backgroundOpacity: ['active'],
     },
   },
   plugins: [
