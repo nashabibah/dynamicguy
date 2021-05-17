@@ -1,14 +1,10 @@
 import Link from "next/link"
-import { useRouter } from "next/router"
 import Layout from "@components/Layout"
 import Hero from "@components/Hero"
 import Brand from "@components/Brand"
 
 
 const Index = ({ posts, title, description, ...props }) => {
-  const router = useRouter()
-  const { defaultLocale } = router
-
   return (
     <>
       <Layout pageTitle={title} description={description}>
@@ -212,13 +208,11 @@ const Index = ({ posts, title, description, ...props }) => {
 
 export default Index
 
-export async function getStaticProps({ locale, locales }) {
+export async function getStaticProps() {
   const configData = await import(`../siteconfig.json`)
 
   return {
     props: {
-      locale,
-      locales,
       title: configData.default.title,
       description: configData.default.description,
     },
